@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Tests,Chrome 71.0.3578.98,,2018-12-19 13:19:37,2018-12-19 13:20:19,"42,540s",FAILED
+,,,,,,
+Test Cases/Checkboxes,Chrome 71.0.3578.98,,2018-12-19 13:19:37,2018-12-19 13:19:46,"9,192s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-19 13:19:37,2018-12-19 13:19:42,"4,475s",PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/checkboxes"")",Chrome 71.0.3578.98,,2018-12-19 13:19:42,2018-12-19 13:19:45,"3,016s",PASSED
+waitForPageLoad(30),Chrome 71.0.3578.98,,2018-12-19 13:19:45,2018-12-19 13:19:45,"0,064s",PASSED
+"click(findTestObject(""Object Repository/Checkboxes/input_1""))",Chrome 71.0.3578.98,,2018-12-19 13:19:45,2018-12-19 13:19:45,"0,108s",PASSED
+"click(findTestObject(""Object Repository/Checkboxes/input_2""))",Chrome 71.0.3578.98,,2018-12-19 13:19:45,2018-12-19 13:19:45,"0,073s",PASSED
+"click(findTestObject(""Object Repository/Checkboxes/input_1""))",Chrome 71.0.3578.98,,2018-12-19 13:19:45,2018-12-19 13:19:45,"0,060s",PASSED
+"if (verifyElementNotChecked(findTestObject(""Object Repository/Checkboxes/input_1""), 30, CONTINUE_ON_FAILURE) && verifyElementNotChecked(findTestObject(""Object Repository/Checkboxes/input_2""), 30, CONTINUE_ON_FAILURE))",Chrome 71.0.3578.98,,2018-12-19 13:19:45,2018-12-19 13:19:45,"0,349s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-19 13:19:45,2018-12-19 13:19:46,"0,770s",PASSED
+"findTestObject(""Object Repository/Checkboxes/input_2"")",Chrome 71.0.3578.98,,2018-12-19 13:19:46,2018-12-19 13:19:46,"0,004s",PASSED
+"findTestObject(""Object Repository/Checkboxes/input_1"")",Chrome 71.0.3578.98,,2018-12-19 13:19:46,2018-12-19 13:19:46,"0,003s",PASSED
+,,,,,,
+Test Cases/Dropdown List,Chrome 71.0.3578.98,,2018-12-19 13:19:46,2018-12-19 13:19:54,"7,533s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-19 13:19:46,2018-12-19 13:19:49,"3,024s",PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/dropdown"")",Chrome 71.0.3578.98,,2018-12-19 13:19:49,2018-12-19 13:19:52,"3,020s",PASSED
+"selectOptionByValue(findTestObject(""Dropdown List/select_Please select an option""), ""1"", true)",Chrome 71.0.3578.98,,2018-12-19 13:19:52,2018-12-19 13:19:52,"0,181s",PASSED
+"selectOptionByValue(findTestObject(""Dropdown List/select_Please select an option""), ""2"", true)",Chrome 71.0.3578.98,,2018-12-19 13:19:52,2018-12-19 13:19:53,"0,134s",PASSED
+"selectOptionByValue(findTestObject(""Dropdown List/select_Please select an option""), ""1"", true)",Chrome 71.0.3578.98,,2018-12-19 13:19:53,2018-12-19 13:19:53,"0,106s",PASSED
+"takeScreenshot(""C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/drop.png"")",Chrome 71.0.3578.98,,2018-12-19 13:19:53,2018-12-19 13:19:53,"0,232s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-19 13:19:53,2018-12-19 13:19:54,"0,698s",PASSED
+,,,,,,
+Test Cases/Dynamic Content,Chrome 71.0.3578.98,,2018-12-19 13:19:54,2018-12-19 13:20:01,"7,505s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-19 13:19:54,2018-12-19 13:19:57,"3,085s",PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/dynamic_content"")",Chrome 71.0.3578.98,,2018-12-19 13:19:57,2018-12-19 13:20:00,"3,254s",PASSED
+flag = true,Chrome 71.0.3578.98,,2018-12-19 13:20:00,2018-12-19 13:20:00,"0,001s",PASSED
+intento = 0,Chrome 71.0.3578.98,,2018-12-19 13:20:00,2018-12-19 13:20:00,"0,001s",PASSED
+while (flag),Chrome 71.0.3578.98,,2018-12-19 13:20:00,2018-12-19 13:20:00,"0,303s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-19 13:20:00,2018-12-19 13:20:01,"0,749s",PASSED
+,,,,,,
+Test Cases/Dynamic Controls,Chrome 71.0.3578.98,,2018-12-19 13:20:01,2018-12-19 13:20:19,"18,039s",FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-19 13:20:01,2018-12-19 13:20:04,"2,933s",PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/dynamic_controls"")",Chrome 71.0.3578.98,,2018-12-19 13:20:04,2018-12-19 13:20:08,"3,412s",PASSED
+"if (!(verifyElementChecked(findTestObject(""Dynamic Controls/input""), 30, CONTINUE_ON_FAILURE)))",Chrome 71.0.3578.98,,2018-12-19 13:20:08,2018-12-19 13:20:08,"0,409s",FAILED
+"click(findTestObject(""Dynamic Controls/button_Remove""))",Chrome 71.0.3578.98,,2018-12-19 13:20:08,2018-12-19 13:20:08,"0,067s",PASSED
+"click(findTestObject(""Dynamic Controls/button_Add""))",Chrome 71.0.3578.98,,2018-12-19 13:20:08,2018-12-19 13:20:11,"3,118s",PASSED
+"if (verifyElementPresent(findTestObject(""Dynamic Controls/input_A checkbox_checkbox""), 30))",Chrome 71.0.3578.98,,2018-12-19 13:20:11,2018-12-19 13:20:15,"3,441s",PASSED
+"click(findTestObject(""Dynamic Controls/input_A checkbox_checkbox""))",Chrome 71.0.3578.98,,2018-12-19 13:20:15,2018-12-19 13:20:15,"0,043s",PASSED
+"click(findTestObject(""Dynamic Controls/form_Enable""))",Chrome 71.0.3578.98,,2018-12-19 13:20:15,2018-12-19 13:20:15,"0,085s",PASSED
+"if (verifyElementText(findTestObject(""Dynamic Controls/button_Enable""), ""Enable"", CONTINUE_ON_FAILURE))",Chrome 71.0.3578.98,,2018-12-19 13:20:15,2018-12-19 13:20:18,"3,433s",PASSED
+"takeScreenshot(""C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/dynamic_controls.png"")",Chrome 71.0.3578.98,,2018-12-19 13:20:18,2018-12-19 13:20:18,"0,274s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-19 13:20:18,2018-12-19 13:20:19,"0,688s",FAILED

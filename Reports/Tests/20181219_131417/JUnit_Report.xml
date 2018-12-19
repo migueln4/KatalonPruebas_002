@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tests" time="35" tests="2" failures="2" errors="0">
+   <testsuite name="Tests" tests="2" failures="2" errors="0" time="35" timestamp="2018-12-19 13:14:19" hostname="miguel.negrillo - DESA29.grupoonetec.local" id="Test Suites/Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417"/>
+         <property name="logFiles" value="C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\1545221665296.png, C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\1545221665576.png, C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/check.png, C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/drop.png, C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/image1.png, C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\1545221682987.png, C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\1545221689655.png, C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/dynamic_controls.png"/>
+         <property name="hostName" value="miguel.negrillo - DESA29.grupoonetec.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.0.190.71"/>
+         <property name="sessionId" value="6318844579e053523ad2382c164ec113"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Checkboxes" classname="Test Cases/Checkboxes" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Checkboxes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Checkboxes/input_1' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Checkboxes.run(Checkboxes:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-19 13:14:19 - [TEST_CASE][FAILED] - Test Cases/Checkboxes: Test Cases/Checkboxes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Checkboxes/input_1' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Checkboxes.run(Checkboxes:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)
+
+
+2018-12-19 13:14:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-19 13:14:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-19 13:14:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-19 13:14:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-19 13:14:22 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/checkboxes"): Navigate to 'https://the-internet.herokuapp.com/checkboxes' successfully
+
+2018-12-19 13:14:24 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/checkboxes' successfully
+
+2018-12-19 13:14:24 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2018-12-19 13:14:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-19 13:14:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkboxes/input_1")): Object: 'Object Repository/Checkboxes/input_1' is clicked on
+
+2018-12-19 13:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkboxes/input_1' is clicked on
+
+2018-12-19 13:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkboxes/input_2")): Object: 'Object Repository/Checkboxes/input_2' is clicked on
+
+2018-12-19 13:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkboxes/input_2' is clicked on
+
+2018-12-19 13:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkboxes/input_1")): Object: 'Object Repository/Checkboxes/input_1' is clicked on
+
+2018-12-19 13:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkboxes/input_1' is clicked on
+
+2018-12-19 13:14:25 - [TEST_STEP][FAILED] - if (!(verifyElementChecked(findTestObject("Object Repository/Checkboxes/input_1"), 30, CONTINUE_ON_FAILURE)) && !(verifyElementChecked(findTestObject("Object Repository/Checkboxes/input_2"), 30, CONTINUE_ON_FAILURE))): Taking screenshot successfully
+
+2018-12-19 13:14:25 - [MESSAGE][FAILED] - Object 'Object Repository/Checkboxes/input_1' is not checked
+[[ATTACHMENT|C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\1545221665296.png]]
+
+2018-12-19 13:14:25 - [MESSAGE][FAILED] - Object 'Object Repository/Checkboxes/input_2' is not checked
+[[ATTACHMENT|C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\1545221665576.png]]
+
+2018-12-19 13:14:25 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/check.png"): Taking screenshot successfully
+
+2018-12-19 13:14:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/check.png]]
+
+2018-12-19 13:14:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-19 13:14:26 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-19 13:14:26 - [TEST_STEP][PASSED] - findTestObject("Object Repository/Checkboxes/input_2"): null
+
+2018-12-19 13:14:26 - [TEST_STEP][FAILED] - findTestObject("Object Repository/Checkboxes/input_1"): findTestObject("Object Repository/Checkboxes/input_1") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Checkboxes/input_1' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Checkboxes.run(Checkboxes:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)
+
+
+2018-12-19 13:14:26 - [MESSAGE][FAILED] - findTestObject("Object Repository/Checkboxes/input_1") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Checkboxes/input_1' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Checkboxes.run(Checkboxes:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-19 13:14:19 - [TEST_CASE][FAILED] - Test Cases/Checkboxes: Test Cases/Checkboxes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Checkboxes/input_1' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Checkboxes.run(Checkboxes:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dropdown List" classname="Test Cases/Dropdown List" status="PASSED">
+         <system-out><![CDATA[2018-12-19 13:14:26 - [TEST_CASE][PASSED] - Test Cases/Dropdown List: Test Cases/Dropdown List
+
+2018-12-19 13:14:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-19 13:14:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-19 13:14:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-19 13:14:29 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/dropdown"): Navigate to 'https://the-internet.herokuapp.com/dropdown' successfully
+
+2018-12-19 13:14:31 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/dropdown' successfully
+
+2018-12-19 13:14:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Dropdown List/select_Please select an option"), "1", true): All options with value '1' are selected in object 'Object Repository/Dropdown List/select_Please select an option'  using regular expression
+
+2018-12-19 13:14:31 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Dropdown List/select_Please select an option'  using regular expression
+
+2018-12-19 13:14:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Dropdown List/select_Please select an option"), "2", true): All options with value '2' are selected in object 'Object Repository/Dropdown List/select_Please select an option'  using regular expression
+
+2018-12-19 13:14:31 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Dropdown List/select_Please select an option'  using regular expression
+
+2018-12-19 13:14:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Dropdown List/select_Please select an option"), "1", true): All options with value '1' are selected in object 'Object Repository/Dropdown List/select_Please select an option'  using regular expression
+
+2018-12-19 13:14:31 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Dropdown List/select_Please select an option'  using regular expression
+
+2018-12-19 13:14:31 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/drop.png"): Taking screenshot successfully
+
+2018-12-19 13:14:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/drop.png]]
+
+2018-12-19 13:14:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-19 13:14:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dynamic Content" classname="Test Cases/Dynamic Content" status="PASSED">
+         <system-out><![CDATA[2018-12-19 13:14:32 - [TEST_CASE][PASSED] - Test Cases/Dynamic Content: Test Cases/Dynamic Content
+
+2018-12-19 13:14:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-19 13:14:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-19 13:14:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-19 13:14:35 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/dynamic_content"): Navigate to 'https://the-internet.herokuapp.com/dynamic_content' successfully
+
+2018-12-19 13:14:37 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/dynamic_content' successfully
+
+2018-12-19 13:14:37 - [TEST_STEP][PASSED] - flag = true: null
+
+2018-12-19 13:14:37 - [TEST_STEP][PASSED] - intento = 0: null
+
+2018-12-19 13:14:37 - [TEST_STEP][PASSED] - while (flag): Taking screenshot successfully
+
+2018-12-19 13:14:37 - [TEST_STEP][PASSED] - (intento++): null
+
+2018-12-19 13:14:37 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Dynamic Content/img_0"), 1, CONTINUE_ON_FAILURE)): Taking screenshot successfully
+
+2018-12-19 13:14:37 - [MESSAGE][PASSED] - Object 'Object Repository/Dynamic Content/img_0' is present
+
+2018-12-19 13:14:37 - [TEST_STEP][PASSED] - flag = false: null
+
+2018-12-19 13:14:37 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/image" + intento + ".png"): Taking screenshot successfully
+
+2018-12-19 13:14:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/image1.png]]
+
+2018-12-19 13:14:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-19 13:14:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dynamic Controls" classname="Test Cases/Dynamic Controls" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dynamic Controls FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Dynamic Controls/input' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Dynamic Controls.run(Dynamic Controls:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-19 13:14:38 - [TEST_CASE][FAILED] - Test Cases/Dynamic Controls: Test Cases/Dynamic Controls FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Dynamic Controls/input' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Dynamic Controls.run(Dynamic Controls:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)
+
+
+2018-12-19 13:14:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-19 13:14:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-19 13:14:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-19 13:14:40 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/dynamic_controls"): Navigate to 'https://the-internet.herokuapp.com/dynamic_controls' successfully
+
+2018-12-19 13:14:42 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/dynamic_controls' successfully
+
+2018-12-19 13:14:42 - [TEST_STEP][FAILED] - if (!(verifyElementChecked(findTestObject("Dynamic Controls/input"), 30, CONTINUE_ON_FAILURE))): Object: 'Object Repository/Dynamic Controls/input' is clicked on
+
+2018-12-19 13:14:43 - [MESSAGE][FAILED] - Object 'Object Repository/Dynamic Controls/input' is not checked
+[[ATTACHMENT|C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\1545221682987.png]]
+
+2018-12-19 13:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Dynamic Controls/input")): Object: 'Object Repository/Dynamic Controls/input' is clicked on
+
+2018-12-19 13:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Dynamic Controls/input' is clicked on
+
+2018-12-19 13:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Dynamic Controls/button_Remove")): Object: 'Object Repository/Dynamic Controls/button_Remove' is clicked on
+
+2018-12-19 13:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Dynamic Controls/button_Remove' is clicked on
+
+2018-12-19 13:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Dynamic Controls/button_Add")): Object: 'Object Repository/Dynamic Controls/button_Add' is clicked on
+
+2018-12-19 13:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Dynamic Controls/button_Add' is clicked on
+
+2018-12-19 13:14:46 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Dynamic Controls/input_A checkbox_checkbox"), 30)): null
+
+2018-12-19 13:14:49 - [MESSAGE][PASSED] - Object 'Object Repository/Dynamic Controls/input_A checkbox_checkbox' is present
+
+2018-12-19 13:14:49 - [TEST_STEP][FAILED] - if (!(verifyElementChecked(findTestObject("Dynamic Controls/input_A checkbox_checkbox"), 30, CONTINUE_ON_FAILURE))): Object: 'Object Repository/Dynamic Controls/input_A checkbox_checkbox' is clicked on
+
+2018-12-19 13:14:49 - [MESSAGE][FAILED] - Object 'Object Repository/Dynamic Controls/input_A checkbox_checkbox' is not checked
+[[ATTACHMENT|C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\1545221689655.png]]
+
+2018-12-19 13:14:49 - [TEST_STEP][PASSED] - click(findTestObject("Dynamic Controls/input_A checkbox_checkbox")): Object: 'Object Repository/Dynamic Controls/input_A checkbox_checkbox' is clicked on
+
+2018-12-19 13:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Dynamic Controls/input_A checkbox_checkbox' is clicked on
+
+2018-12-19 13:14:49 - [TEST_STEP][PASSED] - click(findTestObject("Dynamic Controls/input_A checkbox_checkbox")): Object: 'Object Repository/Dynamic Controls/input_A checkbox_checkbox' is clicked on
+
+2018-12-19 13:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Dynamic Controls/input_A checkbox_checkbox' is clicked on
+
+2018-12-19 13:14:50 - [TEST_STEP][PASSED] - click(findTestObject("Dynamic Controls/form_Enable")): Object: 'Object Repository/Dynamic Controls/form_Enable' is clicked on
+
+2018-12-19 13:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Dynamic Controls/form_Enable' is clicked on
+
+2018-12-19 13:14:50 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Dynamic Controls/button_Enable"), "Enable", CONTINUE_ON_FAILURE)): Text '¡Ya está disponible!' is set on object 'Object Repository/Dynamic Controls/input_1'
+
+2018-12-19 13:14:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dynamic Controls/button_Enable' are matched.
+
+2018-12-19 13:14:50 - [TEST_STEP][PASSED] - click(findTestObject("Dynamic Controls/button_Enable")): Object: 'Object Repository/Dynamic Controls/button_Enable' is clicked on
+
+2018-12-19 13:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Dynamic Controls/button_Enable' is clicked on
+
+2018-12-19 13:14:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Dynamic Controls/Mensaje disponible"), 30): Object 'Object Repository/Dynamic Controls/Mensaje disponible' is visible
+
+2018-12-19 13:14:53 - [MESSAGE][PASSED] - Object 'Object Repository/Dynamic Controls/Mensaje disponible' is visible
+
+2018-12-19 13:14:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Dynamic Controls/input_1"), "¡Ya está disponible!"): Text '¡Ya está disponible!' is set on object 'Object Repository/Dynamic Controls/input_1'
+
+2018-12-19 13:14:53 - [MESSAGE][PASSED] - Text '¡Ya está disponible!' is set on object 'Object Repository/Dynamic Controls/input_1'
+
+2018-12-19 13:14:53 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/dynamic_controls.png"): Taking screenshot successfully
+
+2018-12-19 13:14:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\miguel.negrillo\\Katalon Studio\\SeleniumWebTest\\Reports\\Tests\\20181219_131417\\C:/Users/miguel.negrillo/Katalon Studio/Capturas_SeleniumTests/dynamic_controls.png]]
+
+2018-12-19 13:14:53 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Dynamic Controls/input' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Dynamic Controls.run(Dynamic Controls:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)
+
+
+2018-12-19 13:14:54 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-19 13:14:54 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Dynamic Controls/input' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Dynamic Controls.run(Dynamic Controls:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-19 13:14:38 - [TEST_CASE][FAILED] - Test Cases/Dynamic Controls: Test Cases/Dynamic Controls FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Dynamic Controls/input' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Dynamic Controls.run(Dynamic Controls:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-19 13:14:19 - [TEST_SUITE][FAILED] - Tests: Test Cases/Checkboxes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Checkboxes/input_1' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Checkboxes.run(Checkboxes:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-19 13:14:19 - [TEST_SUITE][FAILED] - Tests: Test Cases/Checkboxes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Checkboxes/input_1' is not checked
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$3.call(Unknown Source)
+	at Checkboxes.run(Checkboxes:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545221657726.run(TempTestSuite1545221657726.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
